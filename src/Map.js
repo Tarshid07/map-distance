@@ -59,7 +59,7 @@ const Map = () => {
           source: "geojson",
           paint: {
             "circle-radius": 7,
-            "circle-color": "#000",
+            "circle-color": "#FFA500",
           },
           filter: ["in", "$type", "Point"],
         });
@@ -72,7 +72,7 @@ const Map = () => {
             "line-join": "round",
           },
           paint: {
-            "line-color": "#000",
+            "line-color": "#FFA500",
             "line-width": 2.5,
             "line-offset": -5,
           },
