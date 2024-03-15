@@ -9,10 +9,11 @@ const Map = () => {
   const [map, setMap] = useState(null);
   mapboxgl.accessToken =
     "pk.eyJ1IjoidGFyc2hpZDA3IiwiYSI6ImNsdHNjZmlhejBzMHgycXFtc3J0eXNjMnMifQ.JeJEzJfmKDAOwPB7hKhLEQ&zoomwheel";
+   // https://api.mapbox.com/styles/v1/tarshid07/cltselid8006g01quaoaxa9c3.html?title=copy&access_token=pk.eyJ1IjoidGFyc2hpZDA3IiwiYSI6ImNsdHNjZmlhejBzMHgycXFtc3J0eXNjMnMifQ.JeJEzJfmKDAOwPB7hKhLEQ&zoomwheel=true&fresh=true#12/25.12/55.13
   useEffect(() => {
     const newMap = new mapboxgl.Map({
       container: "map",
-      style: "mapbox://styles/tarshid07/cltsdt99t00go01qw3t3mfn9y",
+      style: "mapbox://styles/tarshid07/cltselid8006g01quaoaxa9c3",
       center: [77.21, 28.64],
       zoom: 12,
     });
